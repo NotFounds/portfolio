@@ -1,3 +1,118 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "ja"
+title = "Not Founds"
+theme = "notfounds-hugo-theme"
+
+[params]
+    author = "Iori Ikeda"
+    avatarurl = "/images/avatar.png"
+    year = "2020"
+
+# profile
+[params.profile]
+    name = "Iori Ikeda"
+    handlename = "Not Founds / のっふぁ"
+    description = "A server side engineer"
+    email = "iorin.ikeda @ gmail.com"
+
+[[params.profile.main]]
+    name = "Belong"
+    description = "University of Tsukuba"
+    weight = 1
+
+[[params.profile.main]]
+    name = "Skils"
+    description = "JavaScript / React.js / Redux / Kubernetes"
+    weight = 2
+
+[[params.profile.main]]
+    name = "SubSkils"
+    description = "Ruby / Go / Python"
+    weight = 3
+
+[[params.profile.main]]
+    name = "Do"
+    description = "Scuba diving / Cycling"
+    weight = 4
+
+# history
+[[params.history]]
+    name = "National Institute of Technology, Kagoshima College"
+    date = "2013.04 - 2018.03"
+    title = ""
+    description = "dept. Computer Science"
+    weight = 1
+
+[[params.history]]
+    name = "University of Tsukuba"
+    date = "2018.04 - 2020.03"
+    title = ""
+    description = "dept. Media Arts, Science and Technology"
+    weight = 2
+    
+[[params.history]]
+    name = "Drecom Co.,Ltd."
+    date = "2018.09-2018.09"
+    title = "Internship"
+    description = "Rails"
+    weight = 3
+
+[[params.history]]
+    name = "Wantedly, Inc."
+    date = "2018.09-2018.09"
+    title = "Internship"
+    description = "graphQL / React.js / TypeScript"
+    weight = 4
+
+[[params.history]]
+    name = "Wantedly, Inc."
+    date = "2019.02-2018.02"
+    title = "Internship"
+    description = "gRPC / Cloud PubSub"
+    weight = 5
+
+[[params.history]]
+    name = "Colopl, Inc."
+    date = "2019.03-2018.04"
+    title = "Internship"
+    description = "Laravel"
+    weight = 6
+
+[[params.history]]
+    name = "Uzabase, Inc."
+    date = "2019.05-2018.08"
+    title = "Intership"
+    description = "Kubernetes / Istio / ServiceMesh"
+    weight = 6
+
+# social links
+[[params.social]]
+    name = "@NotFounds8080"
+    icon = "twitter"
+    weight = 1
+    url = "https://twitter.com/notfounds8080/"
+
+[[params.social]]
+    name = "Not Founds"
+    icon = "github"
+    weight = 2
+    url = "https://github.com/notfounds/"
+
+[[params.social]]
+    name = "NotFoundsのブログ"
+    icon = "pencil"
+    weight = 3
+    url = "http://notfounds.hatenablog.com/"
+
+# menu links
+#[[menu.main]]
+#    identifier = 'about'
+#    name = "About"
+#    weight = 1
+#    url = "/"
+
+#[[menu.main]]
+#    identifier = 'project'
+#    name = "Project"
+#    weight = 3
+#    url  = "/projecs/"

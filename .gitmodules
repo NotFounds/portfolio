@@ -1,0 +1,3 @@
+[submodule "themes/notfounds-hugo-theme"]
+	path = themes/notfounds-hugo-theme
+	url = https://github.com/NotFounds/notfounds-hugo-theme
