@@ -1,11 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "https://notfounds.github.io/portfolio"
 languageCode = "ja"
 title = "Not Founds"
 theme = "notfounds-hugo-theme"
 
 [params]
     author = "Iori Ikeda"
-    avatarurl = "/images/avatar.png"
+    avatarurl = "https://notfounds.github.io/portfolio/images/avatar.png"
     year = "2020"
 
 # profile
@@ -49,7 +49,7 @@ theme = "notfounds-hugo-theme"
     title = ""
     description = "dept. Media Arts, Science and Technology"
     weight = 2
-    
+
 [[params.history]]
     name = "Drecom Co.,Ltd."
     date = "2018.09-2018.09"
